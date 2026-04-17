@@ -1,0 +1,4 @@
+Python threading allows you to run concurrent operations.
+However, because of the Global Interpreter Lock (GIL), it is often better to use asyncio for I/O bound tasks, 
+or multiprocessing for CPU bound tasks.
+Hashlib is a great library for creating hashes. We will use it for file versioning.
